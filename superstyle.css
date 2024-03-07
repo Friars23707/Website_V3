@@ -1,0 +1,44 @@
+/* Custom styles for the navbar */
+.navbar-dark {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.dropdown-menu {
+    background-color: #343a40;
+}
+
+.dropdown-item {
+    color: #ffffff;
+}
+
+.dropdown-item:hover {
+    background-color: goldenrod;
+}
+
+/*Parralax BG*/
+.parallax-slider {
+    position: sticky;
+    width: 100%;
+    z-index: -100;
+    justify-content: center;
+}
+
+.parallax-slider img {
+    width: 100%;
+}
+
+.content {
+    background-color: white;
+}
