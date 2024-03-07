@@ -29,16 +29,20 @@
 
 /*Parralax BG*/
 .parallax-slider {
-    position: sticky;
-    width: 100%;
-    z-index: -100;
-    justify-content: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .parallax-slider img {
     width: 100%;
+    background-attachment: fixed !important;
+    background-position: center;
+    background-size: cover;
 }
 
 .content {
     background-color: white;
+    position: absolute;
 }
